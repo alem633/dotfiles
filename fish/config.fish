@@ -6,5 +6,7 @@ function fish_user_key_bindings
   fish_vi_key_bindings
 end
 
+source ~/.config/fish/functions/fish_prompt.fish
+
 # Created by `pipx` on 2025-03-04 17:03:55
 set PATH $PATH /home/alessio/.local/bin
