@@ -32,6 +32,8 @@ client.unfocused        #282828 #1d2021 #a89984 #3c3836
 client.focused_inactive #3c3836 #3c3836 #ebdbb2 #458588 
 client.urgent           #cc241d #282828 #ebdbb2 #fb4934
 
+# notifications
+exec swaync
 
 default_border pixel 3
 default_floating_border none
