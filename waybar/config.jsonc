@@ -9,7 +9,7 @@
     "margin-left": 8,
 
     "modules-left": [
-        "hyprland/workspaces"
+        "sway/workspaces"
     ],
 
     "modules-center": [
@@ -84,7 +84,7 @@
         "format": "vol {volume}%",
         "format-bluetooth": "vol {volume}%",
         "nospacing": 1,
-        "on-click": "pwvucontrol",
+        "on-click": "pavucontrol",
         "tooltip": false
     }
 }
