@@ -27,7 +27,7 @@ gaps inner 5
 gaps outer 5
 
 # Windows decoration
-client.focused          #d79921 #3c3836 #ebdbb2 #458588   
+client.focused          #ffffff #ffffff #ffffff
 client.unfocused        #282828 #1d2021 #a89984 #3c3836  
 client.focused_inactive #3c3836 #3c3836 #ebdbb2 #458588 
 client.urgent           #cc241d #282828 #ebdbb2 #fb4934
