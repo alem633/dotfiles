@@ -10,3 +10,6 @@ source ~/.config/fish/functions/fish_prompt.fish
 
 # Created by `pipx` on 2025-03-04 17:03:55
 set PATH $PATH /home/alessio/.local/bin
+
+# Espressif idf.py
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
