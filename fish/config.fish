@@ -8,6 +8,10 @@ end
 
 source ~/.config/fish/functions/fish_prompt.fish
 
+# qt5ct
+export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORMTHEME=qt5ct
+
 # Created by `pipx` on 2025-03-04 17:03:55
 set PATH $PATH /home/alessio/.local/bin
 
