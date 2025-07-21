@@ -10,6 +10,7 @@
 set $mod Mod4
 
 input "type:pointer" accel_profile flat
+output HDMI-A-2 mode 1920x1080@75Hz
 
 # Home row direction keys, like vim
 set $left h
@@ -21,7 +22,7 @@ set $term kitty
 # Your preferred application launcher
 set $menu wofi --show drun
 # Your preferred browser
-set $browser firefox
+set $browser flatpak run org.mozilla.firefox
 
 gaps inner 5
 gaps outer 5
