@@ -17,3 +17,7 @@ set PATH $PATH /home/alessio/.local/bin
 
 # Espressif idf.py
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
+
+# go
+set PATH $PATH:/usr/local/go/bin
+set PATH $PATH:$(go env GOPATH)/bin

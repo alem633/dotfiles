@@ -35,6 +35,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
 require'lspconfig'.clangd.setup{}
 -- py
 require'lspconfig'.pylsp.setup{}
+-- go
+require'lspconfig'.gopls.setup{}
 
 local cmp = require('cmp')
 
