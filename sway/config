@@ -9,7 +9,7 @@
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 
-input "type:pointer" accel_profile flat
+input "type:pointer" accel_profile adaptive
 output HDMI-A-2 mode 1920x1080@75Hz
 
 # Home row direction keys, like vim

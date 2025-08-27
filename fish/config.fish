@@ -3,10 +3,10 @@ if status is-interactive
 end
 
 function fish_user_key_bindings
-  fish_vi_key_bindings
+    fish_vi_key_bindings
 end
 
-source ~/.config/fish/functions/fish_prompt.fish
+# source ~/.config/fish/functions/fish_prompt.fish
 
 # qt5ct
 export QT_QPA_PLATFORM=wayland
@@ -21,3 +21,10 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 # go
 set PATH $PATH:/usr/local/go/bin
 set PATH $PATH:$(go env GOPATH)/bin
+
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
+jump shell fish | source
+
+alias ls="lsd"
+alias bat="batcat"
