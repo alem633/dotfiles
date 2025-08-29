@@ -27,4 +27,3 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 jump shell fish | source
 
 alias ls="lsd"
-alias bat="batcat"
